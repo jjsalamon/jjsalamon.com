@@ -88,3 +88,7 @@ c:\Projects\jjsalamon.com\jjsalamon.com\bin\zh-Hant\System.Spatial.resources.dll
 c:\Projects\jjsalamon.com\jjsalamon.com\obj\Debug\jjsalamon.com.csprojResolveAssemblyReference.cache
 c:\Projects\jjsalamon.com\jjsalamon.com\obj\Debug\jjsalamon.com.dll
 c:\Projects\jjsalamon.com\jjsalamon.com\obj\Debug\jjsalamon.com.pdb
+C:\Projects\jjsalamon.com\jjsalamon.com\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Projects\jjsalamon.com\jjsalamon.com\bin\Mono.Math.dll
+C:\Projects\jjsalamon.com\jjsalamon.com\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Projects\jjsalamon.com\jjsalamon.com\bin\Mono.Math.xml
