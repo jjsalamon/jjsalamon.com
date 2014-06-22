@@ -1,26 +1,11 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-    <head>
-        <meta charset="utf-8" />
-        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
-        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <meta name="viewport" content="width=device-width" />
-        @Styles.Render("~/Content/css")
-        @Scripts.Render("~/bundles/modernizr")
-    </head>
-    <body>
-        <header>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p class="site-title">@Html.ActionLink("your logo here", "Index", "Home")</p>
-=======
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="James Salamon">
+    <meta name="author" content="James Salamon" />
 
     <title>James Salamon</title>
 
@@ -53,14 +38,17 @@
     <div class="container">
 
         <div class="blog-header">
-            <h1 class="blog-title">James Salamon</h1>
-            <p class="lead blog-description">JJSalamon's McBlog: Delivered to you using Asp.Net MVC, Mono, Nginx and a Raspberry Pi.</p>
+            <h1 class="blog-title">JJSalamon's Angry Whopper</h1>
+            <p class="lead blog-description">James' Project LargeMcBlogWithFries: Delivered to you using 'Asp.Net' MVC, Mono, Nginx and a Raspberry Pi.</p>
         </div>
 
         <div class="row">
 
             <div class="col-sm-8 blog-main">
-                @RenderBody()
+
+
+                <h2>Home</h2>
+
                 <ul class="pager">
                     <li><a href="#">Previous</a></li>
                     <li><a href="#">Next</a></li>
@@ -71,37 +59,27 @@
             <div class="col-sm-3 col-sm-offset-1">
                 <div class="sidebar-module sidebar-module-inset">
                     <h4>About Me</h4>
->>>>>>> a7094ce... init
-                </div>
-                <div class="float-right">
-                    <section id="login">
-                        @Html.Partial("_LoginPartial")
-                    </section>
-                    <nav>
-                        <ul id="menu">
-                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <div id="body">
-            @RenderSection("featured", required: false)
-            <section class="content-wrapper main-content clear-fix">
-                @RenderBody()
-            </section>
-        </div>
-        <footer>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
-                </div>
-            </div>
-        </footer>
 
-        @Scripts.Render("~/bundles/jquery")
-        @RenderSection("scripts", required: false)
-    </body>
+                </div>
+                <div class="sidebar-module">
+                    <h4>Archives</h4>
+                    <ol class="list-unstyled"></ol>
+                </div>
+                <div class="sidebar-module">
+                    <h4>Elsewhere</h4>
+                    <ol class="list-unstyled">
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Bitbucket</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-footer">
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </div>
+</body>
 </html>
